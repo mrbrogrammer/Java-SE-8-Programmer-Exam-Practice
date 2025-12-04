@@ -1,0 +1,53 @@
+package com.acme.testing;
+
+import java.util.Arrays;
+import java.util.*;
+import java.io.*;
+
+
+public class TestGoods {
+
+    public static void main(String[] args)
+    {
+        String items[] = { "fig",  "apple", "date", "banana", "egg", "carrot" };
+        System.out.println("Original List: " + Arrays.toString(items));
+
+        items = sortItems(items, false);
+        System.out.println("Ascending List: " + Arrays.toString(items));
+
+        items = sortItems(items, true);
+        System.out.println("Descending List: " + Arrays.toString(items));
+    }
+
+    public static String[] sortItems(String items[], boolean inReverse)
+    {
+
+        // DO SOMETHING TO SORT THE LIST
+        
+    	Arrays.sort(items);
+    	
+//    	List<String> result = Arrays..asList(null);
+//    	
+//        if (inReverse) {
+//        	for (int i = 0; i < items.length; i++) {
+//        		for (int j = 0; j < items.length; j++) {
+//        			int charINum = (int) items[i].charAt(0);
+//        			int charJNum = (int) items[i].charAt(0);
+//
+//        			if (items[i] != items[j] && charINum < charJNum) {
+//        				result.add(); 
+//        			}
+//        		} 
+//        		
+//        	} 
+//        	
+//            
+//        } else {
+//        	
+//        }
+        
+        System.out.print(items);
+
+        return items;
+    }
+}

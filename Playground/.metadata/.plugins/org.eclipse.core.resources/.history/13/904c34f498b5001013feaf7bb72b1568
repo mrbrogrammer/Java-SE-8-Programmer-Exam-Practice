@@ -1,0 +1,30 @@
+package com.practice.test;
+
+import java.util.*;
+
+public class Recursion {
+
+	public static void main(String[] args) {
+		// Get the number in which the is for
+		int input = 0;
+		Scanner sc = new Scanner(System.in);
+		input = sc.nextInt();
+		
+		// Call method here
+		System.out.println(fact(input));
+	}
+	
+	public static int fact(int num) {
+		int result = 0;
+		
+		if (num == 0) {
+			// base case
+			return num;
+		} else {
+			// recursive case
+			System.out.println(num);
+
+			return num * fact(num -1);
+		}
+	} 
+}

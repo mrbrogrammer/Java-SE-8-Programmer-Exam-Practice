@@ -1,0 +1,13 @@
+package com.acme.testing;
+
+//import com.acme.domain.Good;
+//import com.acme.domain.Liquid;
+//import com.acme.domain.Solid;
+//import com.acme.domain.Good.UnitOfMeasureType;
+
+public class TestGoods {
+
+	public static void main(String[] args) {
+		System.out.println("Start!");
+	}
+}

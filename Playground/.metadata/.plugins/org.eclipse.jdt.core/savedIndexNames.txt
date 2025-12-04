@@ -1,0 +1,18 @@
+INDEX VERSION 1.134+/Users/sims/Desktop/Java101/Playground/.metadata/.plugins/org.eclipse.jdt.core
+1337929755.index
+1890877350.index
+3247560794.index
+2497940812.index
+3332083163.index
+2369222905.index
+1045131507.index
+3289378489.index
+946256465.index
+3127599216.index
+1479167148.index
+4148436513.index
+4052660256.index
+1865797976.index
+3499838631.index
+3675646073.index
+3726075042.index

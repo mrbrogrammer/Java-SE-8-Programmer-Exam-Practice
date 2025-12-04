@@ -1,0 +1,46 @@
+package com.practice.test;
+
+import java.util.Scanner;
+
+public class FindWords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = new String();
+		String longStr = new String();
+		Scanner sc = new Scanner(System.in);
+		str = sc.nextLine();
+		longStr = sc.nextLine();
+		
+		System.out.println(findWords("abc", "bacbca"));
+	}
+	
+	public static int findWords(String str, String longStr) {
+		int countWord = 0;
+		int countCharacter = 0;
+		// Change longStr into an array for mutation
+		char[] longStrArr = longStr.toCharArray();
+		// iterate through the longStr by 4 increments
+		for (int i = 0; i < longStrArr.length; i++) {
+			if (countCharacter == str.length()) {
+				countWord++;
+			}
+			countCharacter = 0;
+			for (int j = 0; j < str.length(); j++) {
+				for (int k = i; k < i + str.length() && k < longStrArr.length; k++) {
+
+					if (str.charAt(j) == longStrArr[k]) {
+						System.out.println("k" + k);
+
+						System.out.println("k" + longStrArr[k]);
+						countCharacter++;
+					}
+				}
+			}
+		}
+		
+		
+		return countWord;
+	}
+
+}

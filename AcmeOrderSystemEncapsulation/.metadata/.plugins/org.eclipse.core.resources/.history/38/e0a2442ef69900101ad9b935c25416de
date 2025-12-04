@@ -1,0 +1,8 @@
+package com.acme.testing;
+
+public class SolidTechExercise {
+
+	public void main(String args[]) {
+		System.out.print("Start!");
+	}
+}

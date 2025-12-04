@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy Project &apos;HelloWorld&apos;" description="Copy Project &apos;HelloWorld&apos;" destination="/Users/sims/Desktop/Java101/AcmeOrderSystemEncapsulation" element="/HelloWorld" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="Polymorphism" stamp="1758803501466"/>
+</session>

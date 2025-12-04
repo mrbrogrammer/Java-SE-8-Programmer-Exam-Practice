@@ -1,0 +1,17 @@
+package com.practice.test;
+
+//import com.practice.domain.Node;
+import com.practice.utils.PrintUtil;
+import com.practice.service.SinglyLinkedList;
+
+public class TestSinglyLinkedList {
+
+	public static void main(String[] args) {
+		SinglyLinkedList names = new SinglyLinkedList();
+		names.insert("Sam");
+		names.insert("John");
+		names.insert("Rob");
+		
+		PrintUtil.printSinglyLinkedList(names.head);
+	}
+}

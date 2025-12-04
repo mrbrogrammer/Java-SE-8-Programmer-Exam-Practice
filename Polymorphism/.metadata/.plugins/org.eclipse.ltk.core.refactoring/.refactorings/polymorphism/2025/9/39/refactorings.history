@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;polymorphism&apos;&#x0A;- Original project: &apos;polymorphism&apos;&#x0A;- Original element: &apos;polymorphism/src/polymorphism.com.simphiwe.polymorphism&apos;" description="Delete element" element1="/src&lt;polymorphism.com.simphiwe.polymorphism" element2="/src&lt;polymorphism.com.simphiwe" element3="/src&lt;polymorphism.com" element4="/src&lt;polymorphism" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1758804274350" subPackages="false" version="1.0"/>
+</session>

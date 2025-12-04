@@ -1,0 +1,16 @@
+package com.acme.testing;
+
+import com.acme.utils.MyDate;
+
+public class PassByExperiment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void passByObject(MyDate d) {
+		d.year = 2009;
+	}
+
+}

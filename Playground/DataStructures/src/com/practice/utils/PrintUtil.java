@@ -1,0 +1,14 @@
+package com.practice.utils;
+
+import com.practice.domain.Node;
+
+public class PrintUtil {
+	public static void printSinglyLinkedList(Node node) {
+		Node tmp = node;
+		while (tmp != null) {
+			System.out.println(tmp.data);
+			tmp = tmp.next;
+		}
+	}
+
+}
